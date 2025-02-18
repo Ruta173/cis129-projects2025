@@ -4,13 +4,13 @@ print('My Coffee Shop')
 
 # prints beginning text ^
 
-print("Number of coffees bought?: ")
+print("Number of Coffees bought?: ")
 coffee = int(input(""))
-print("Number of muffins bought?: ")
+print("Number of Muffins bought?: ")
 muffin = int(input(""))
-print("Number of cake pops bought?: ")
+print("Number of Cake Pops bought?: ")
 cakePop = int(input(""))
-print("Number of special waters bought?: ")
+print("Number of Special Waters bought?: ")
 specWat = int(input(""))
 print(star20 , '\n')
 print(star20)
@@ -43,11 +43,11 @@ else:
     popTotal = cakePop * 1
     print('$', popTotal, '.00')
 if specWat > 1:
-    print(specWat, ' Special waters at $8 each: ', end='')
+    print(specWat, ' Special Waters at $8 each: ', end='')
     watTotal = specWat * 8
     print('$', watTotal, '.00')
 else:
-    print(specWat, ' Special water at $8 each: ', end='')
+    print(specWat, ' Special Water at $8 each: ', end='')
     watTotal = specWat * 8
     print('$', watTotal, '.00')
 
